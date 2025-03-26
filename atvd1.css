@@ -1,0 +1,68 @@
+body {
+    background-image: url('https://scontent.fbfh3-3.fna.fbcdn.net/v/t39.30808-6/459052835_919356763563776_4200787991731771676_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MnGU9Pwzn4YQ7kNvgGls18z&_nc_oc=Adn4o7oGxm07Umd2KYZBT3yGiDs7AH6qsJKIT2ybuXfNVgxhZBxeMwD2y3VIudsxjoI&_nc_zt=23&_nc_ht=scontent.fbfh3-3.fna&_nc_gid=5DudlCYOBnyQnBosd558CQ&oh=00_AYGwlGblj3tj3WrB3rDXaSPevuJZR9mawKt_HtBt1idA0Q&oe=67EA46AA');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    color: rgb(249, 247, 253); /* Altera a cor do texto para branco */
+    font-family: Arial, sans-serif; /* Define a fonte da página */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

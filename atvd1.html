@@ -2,80 +2,25 @@
 <html lang="pt-BR">
 <head>
     <title>Brawl Stars - Jogo Multijogador</title>
-    <style>
-        body {
-            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/12/brawl-stars-galaxy-logo-desktop-wallpaper-preview.jpg');
-            background-size: cover; /* Faz a imagem cobrir toda a tela */
-            background-position: center; /* Centraliza a imagem de fundo */
-            background-repeat: no-repeat; /* Impede a repetição da imagem */
-            color: rgb(249, 247, 253); /* Altera a cor do texto para branco */
-            font-family: Arial, sans-serif; /* Define a fonte da página */
-        }
-
-        header {
-            background-color: rgba(0, 0, 0, 0.6);
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 3em;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-
-        section {
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5); 
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        p, ul, ol {
-            font-size: 1.1em;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="atvd1.css">
 </head>
 <body>
     <header>
-        <h1>Brawl Stars - O Jogo de Luta Multijogador</h1>
+        <h1 id="texto">Brawl Stars - O Jogo de Luta Multijogador</h1>
+        <script>
+            const cores = ["red", "blue", "green", "yellow", "orange", "purple", "white"];
+            
+            function mudarCor() {
+                const texto = document.getElementById("texto");
+                let corAtual = texto.style.color;
+    
+                let novaCor = cores[Math.floor(Math.random() * cores.length)];
+
+                texto.style.color = novaCor;
+            }
+    
+            setInterval(mudarCor, 100);
+        </script>
         <nav>
             <ul>
                 <li><a href="#modos">Modos de Jogo</a></li>
