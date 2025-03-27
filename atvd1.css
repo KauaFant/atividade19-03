@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://scontent.fbfh3-3.fna.fbcdn.net/v/t39.30808-6/459052835_919356763563776_4200787991731771676_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MnGU9Pwzn4YQ7kNvgGls18z&_nc_oc=Adn4o7oGxm07Umd2KYZBT3yGiDs7AH6qsJKIT2ybuXfNVgxhZBxeMwD2y3VIudsxjoI&_nc_zt=23&_nc_ht=scontent.fbfh3-3.fna&_nc_gid=5DudlCYOBnyQnBosd558CQ&oh=00_AYGwlGblj3tj3WrB3rDXaSPevuJZR9mawKt_HtBt1idA0Q&oe=67EA46AA');
+    background-image: url('https://images4.alphacoders.com/129/1292331.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem de fundo */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(66, 66, 45, 0.6);
     padding: 20px;
     text-align: center;
 }
@@ -16,6 +16,8 @@ header {
 h1 {
     margin: 0;
     font-size: 3em;
+    src: url(/atividade19-03-main/shine.zip);
+    font-family: Starborn3;
 }
 
 nav ul {
@@ -36,7 +38,7 @@ nav ul li a {
 
 section {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.6); 
     margin: 20px 0;
     border-radius: 8px;
 }
@@ -65,4 +67,46 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a {
+    color: rgb(235, 232, 64);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #eeeb57;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+
+.navbar a:hover {
+    color: #d8e06a;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+header img{
+    position: fixed;
+    left: 30px;
 }
