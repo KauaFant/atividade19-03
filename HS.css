@@ -1,0 +1,119 @@
+header {
+    background-image: url('https://wallpapers.com/images/hd/spider-man-logo-qe6f52sk0xgk6rd7.jpg');
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: black;
+    color: rgb(249, 247, 253);
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    font-size: 1.1em;
+}
+
+@font-face {
+    font-family: TheJakara;
+    src: url(THE_JACATRA.otf);
+}
+
+h1 {
+    font-family: TheJakara;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a {
+    color: rgb(255, 30, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    position: relative;
+    transition: color 0.9s ease;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #ff1100;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+
+.navbar a:hover {
+    color: rgb(255, 192, 192);
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#secao{
+    background-image:url('https://longahistoria.com.br/wp-content/uploads/2021/12/homem-aranha-sem-volta-para-casa-imagem-destacada.jpg');
+}
+
+.container {
+    display: flex;
+}
+
+.entrevistas {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
